@@ -10,6 +10,8 @@ import { environment } from '../environments/environment';
 import { TaskItemComponent } from './task-item/task-item.component';
 import { TaskListComponent } from './task-list/task-list.component';
 
+import { TaskService } from './task.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +27,9 @@ import { TaskListComponent } from './task-list/task-list.component';
     MatLineModule,
     MatSlideToggleModule
   ],
-  providers: [],
+  providers: [
+    TaskService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
