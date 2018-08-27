@@ -13,6 +13,7 @@ import {
   MatIconModule,
   MatDialogModule,
   MatFormFieldModule,
+  MatProgressSpinnerModule,
   MatInputModule,
   MatMenuModule
 } from '@angular/material';
@@ -45,6 +46,7 @@ import { TaskService } from './task.service';
     MatMenuModule,
     MatInputModule,
     MatFormFieldModule,
+    MatProgressSpinnerModule,
     MatIconModule,
     MatToolbarModule,
     MatListModule,
