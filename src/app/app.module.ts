@@ -13,7 +13,8 @@ import {
   MatIconModule,
   MatDialogModule,
   MatFormFieldModule,
-  MatInputModule
+  MatInputModule,
+  MatMenuModule
 } from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -41,6 +42,7 @@ import { TaskService } from './task.service';
     FormsModule,
     MatButtonModule,
     MatDialogModule,
+    MatMenuModule,
     MatInputModule,
     MatFormFieldModule,
     MatIconModule,
