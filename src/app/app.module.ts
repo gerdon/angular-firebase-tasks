@@ -39,7 +39,7 @@ import { TaskService } from './task.service';
   imports: [
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule,
+    AngularFirestoreModule.enablePersistence(),
     FormsModule,
     MatButtonModule,
     MatDialogModule,
